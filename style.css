@@ -96,9 +96,6 @@ footer{
     height: 10vh;
 }
 
-a{
-    color:blue
-}
 
 
 
@@ -106,9 +103,6 @@ a{
 li{
     display: inline;
     padding: 10px;
-}
-
-.main {
 }
 
 a{
