@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2vh;
+    width: 100%;
+    background-color: black;
+    border: 1px solid red;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.caracteristicas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.caracteristicas div{
+    margin: 5vh 5vw 5vh 5vw;
+    border: black 5px solid;
+    padding: 5%;
+    height: 40vh;
+}
+
+.navegadores{
+    width: 60%;
+}
+
+.navegadores button{
+    font-size: 1.5em;
+}
+
+.main{
+    height: 50vh;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    background-color: rgb(237, 238, 210);
+}
+
+footer{
+    background-color: black;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: red 1px solid;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 5vh 5vh;
+}
+
+.container img{
+    height: 30vh;
+}
+
+.logo{
+    height: 10vh;
+}
+
+a{
+    color:blue
+}
+
+
+
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+.main {
+}
+
+a{
+    text-decoration: none;
+}
+
+.foto{
+    height: 350px;
+    display: inline;   
+}
+
+p{
+    display: inline;
+}
+
+.valores li{
+    display: block;
+    padding: 5px;
+    list-style: circle;
+}
+
+.valores{
+    list-style: circle;
+}
+
+.icono{
+    padding: 20px;
+    width: 50px;
+}
+.pie-de-pagina{
+
+}
+
+#consultas{
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+}
+.consultas{
+    display: grid;
+    height: 80%;
+}
+
+form{
+    width: 50%;
+}
